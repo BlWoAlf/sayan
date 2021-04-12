@@ -1,0 +1,11 @@
+$standart-text-color: #ffffff;
+// шрифт говно
+$primary-font-family: 'Druk Cyr';
+$primary-style: normal;
+$primary-weight: 400;
+
+body{
+    font-family: $primary-font-family;
+    font-style: $primary-style;
+    font-weight: $primary-weight;
+}
