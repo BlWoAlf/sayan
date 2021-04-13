@@ -1,0 +1,8 @@
+$footer-color: $grey-color; //from utils/variables
+
+.footer{
+    width: 100%;
+    min-height: 329px;
+    background: $footer-color;
+    padding: 48px 0px;
+}

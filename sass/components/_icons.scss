@@ -1,0 +1,42 @@
+.address-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-map-marker-alt);
+    }
+}
+.mail-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-envelope);
+    }
+}
+.phone-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-phone);
+    }
+}
+.vk-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fab;
+        content: fa-content($fa-var-vk);
+    }
+}
+.inst-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fab;
+        content: fa-content($fa-var-instagram);
+    }
+}
+.ok-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fab;
+        content: fa-content($fa-var-odnoklassniki);
+    }
+}

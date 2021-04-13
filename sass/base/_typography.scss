@@ -1,11 +1,24 @@
-$standart-text-color: #ffffff;
-// шрифт говно
-$primary-font-family: 'Druk Cyr';
-$primary-style: normal;
-$primary-weight: 400;
+$primary-font: 'Druk Cyr'; // шрифт говно
+$secondary-font: 'Montserrat', sans-serif;
+
+$standart-text-size: 14px;
+$standart-style: normal;
+$standart-weight: 400;
 
 body{
-    font-family: $primary-font-family;
-    font-style: $primary-style;
-    font-weight: $primary-weight;
+    font-family: $primary-font;
+    font-style: $standart-style;
+    font-weight: $standart-weight;
+    color: $standart-text-color;
+}
+
+.h1-header{
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 48px;
+}
+.h3-header{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
 }

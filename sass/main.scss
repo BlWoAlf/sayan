@@ -3,11 +3,24 @@
 
 @import 'vendors/bootstrap';
 @import 'vendors/fonts';
+@import 'vendors/fontawesome/fontawesome.scss';
+@import 'vendors/fontawesome/solid.scss';
+@import 'vendors/fontawesome/brands.scss';
 
 @import 'base/base';
 @import 'base/typography';
 
+@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/menu';
+@import 'layout/footer';
+@import 'layout/content-section';
 
+@import 'components/icons';
+@import 'components/marker-icons';
 @import 'components/logo';
+@import 'components/information-block';
+@import 'components/footer__contacts';
+@import 'components/footer__about-company';
+@import 'components/footer__copyrighting';
+@import 'components/footer__follow';

@@ -1,0 +1,20 @@
+$marker-margin-right: 8px;
+
+.m-address-i{
+    @extend .address-i;
+    &:before {
+        margin-right: $marker-margin-right;
+    }
+}
+.m-mail-i{
+    @extend .mail-i;
+    &:before {
+        margin-right: $marker-margin-right;
+    }
+}
+.m-phone-i{
+    @extend .phone-i;
+    &:before {
+        margin-right: $marker-margin-right;
+    }
+}

@@ -1,0 +1,7 @@
+.footer__contacts{
+    .list__item{
+        &::before{
+            color: $primary-color;
+        }
+    }
+}
