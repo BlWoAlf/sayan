@@ -1,0 +1,7 @@
+@mixin icon($prefix, $name){
+    &:before {
+        @extend %fa-icon;
+        @extend $prefix;
+        content: fa-content($fa-var- + $name);
+    }
+}

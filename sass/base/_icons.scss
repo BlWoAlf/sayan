@@ -1,0 +1,84 @@
+.address-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-map-marker-alt);
+    }
+}
+.mail-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-envelope);
+    }
+}
+.phone-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-phone);
+    }
+}
+.vk-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fab;
+        content: fa-content($fa-var-vk);
+    }
+}
+.inst-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fab;
+        content: fa-content($fa-var-instagram);
+    }
+}
+.ok-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fab;
+        content: fa-content($fa-var-odnoklassniki);
+    }
+}
+.chevron-left-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-chevron-left);
+    }
+}
+.chevron-right-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-chevron-right);
+    }
+}
+.eye-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-eye);
+    }
+}
+.newspaper-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-newspaper);
+    }
+}
+.rss-square-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-rss-square);
+    }
+}
+.bullhorn-i{
+    &:before {
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-bullhorn);
+    }
+}

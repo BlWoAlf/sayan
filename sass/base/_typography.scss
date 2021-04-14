@@ -1,9 +1,13 @@
-$primary-font: 'Druk Cyr'; // шрифт говно
+// $primary-font: 'Druk Cyr'; // шрифт говно
+$primary-font:'Arial Black';
 $secondary-font: 'Montserrat', sans-serif;
 
 $standart-text-size: 14px;
 $standart-style: normal;
-$standart-weight: 400;
+$standart-weight: normal;
+
+$standart-text-line-height: 21px;
+$news-text-line-height: 17px;
 
 body{
     font-family: $primary-font;
@@ -16,9 +20,46 @@ body{
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 48px;
+    font-weight: $standart-weight; 
+    // letter-spacing: 1.2px; //шрифт не подходит
 }
 .h3-header{
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 16px;
+    font-weight: $standart-weight;
+    // letter-spacing: 1.8px; //шрифт не подходит
+}
+.h4-header{
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    font-weight: $standart-weight;
+    // letter-spacing: 1.8px; //шрифт не подходит
+}
+.h5-header{
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 16px;
+    font-weight: $standart-weight;
+    // letter-spacing: 2px; //шрифт не подходит
+}
+
+.text{
+    font-family: $secondary-font;
+    font-size: $standart-text-size;
+    line-height: $standart-text-line-height;
+    margin-bottom: 16px;
+}
+
+.button{
+    a{
+        font-size: 12px;
+        line-height: 12px;
+        // letter-spacing: 1.5px; //шрифт не подходит
+        &:before{
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
 }

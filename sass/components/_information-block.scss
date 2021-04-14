@@ -1,8 +1,5 @@
-// .information-block__header{}
 .information-block__content{
-    font-family: $secondary-font;
-    font-size: $standart-text-size;
-    line-height: 21px;
+    @extend .text;
     a{
         color: $standart-text-color;
     }

@@ -1,5 +1,6 @@
 @import 'utils/variables';
 @import 'utils/placeholders';
+@import 'utils/functions';
 
 @import 'vendors/bootstrap';
 @import 'vendors/fonts';
@@ -9,16 +10,25 @@
 
 @import 'base/base';
 @import 'base/typography';
+@import 'base/icons';
 
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/menu';
 @import 'layout/footer';
 @import 'layout/content-section';
+@import 'layout/gallary';
+@import 'layout/buttons-bar';
+@import 'layout/content-section__last-news';
+@import 'layout/all-projects';
 
-@import 'components/icons';
 @import 'components/marker-icons';
 @import 'components/logo';
+@import 'components/carousel';
+@import 'components/sub-carousel';
+@import 'components/news';
+@import 'components/advertisement';
+@import 'components/project-logo';
 @import 'components/information-block';
 @import 'components/footer__contacts';
 @import 'components/footer__about-company';

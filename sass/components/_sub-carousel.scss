@@ -1,0 +1,27 @@
+.sub-carousel{
+    @extend %flex-horizontal; //carousel non
+    width: 100%;
+}
+
+.sub-carousel__item{
+    width: 190px; //carousel non
+    height: 90px;
+    outline: 8px solid transparent;
+    background: url('../../images/plug.jpg') no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    margin: 0 15px;
+    &:first-child{
+        margin-left: 0px;
+    }
+    &:last-child{
+        margin-right: 0px;
+    }
+    &.sub-carousel__item_active{
+        outline-color: $primary-color;
+    }
+    img{
+        @extend %img-fill;
+        object-fit: cover;
+    }
+}

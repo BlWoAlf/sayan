@@ -1,0 +1,12 @@
+.buttons-bar_horizontal_center{
+    @extend %flex-horizontal-center;
+    .button{
+        margin: 0 18px;
+        &:first-child{
+            margin-left: 0px;
+        }
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+}
