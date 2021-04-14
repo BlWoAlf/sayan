@@ -6297,6 +6297,16 @@ body {
   margin-bottom: 16px;
 }
 
+.logo-font, .logo__image::after {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.header-menu-font, .header__menu .list__item a {
+  font-size: 14px;
+  line-height: 36px;
+}
+
 .button a {
   font-size: 12px;
   line-height: 12px;
@@ -6365,8 +6375,6 @@ body {
   background-color: #ED1C24;
 }
 .header__menu .list__item a {
-  font-size: 14px;
-  line-height: 36px;
   color: #FFFFFF;
   padding: 18px;
 }
@@ -6434,8 +6442,6 @@ body {
 }
 .logo__image::after {
   content: "саяны";
-  font-size: 24px;
-  line-height: 24px;
 }
 
 .carousel {

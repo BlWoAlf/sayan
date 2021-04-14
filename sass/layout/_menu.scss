@@ -1,13 +1,9 @@
-$menu-item-font-size: 14px;
-$menu-item-line-height: 36px;
-
 .header__menu{
     @extend %flex-center-row;
     .list__item{
         a{
             @extend %clean-link;
-            font-size: $menu-item-font-size;
-            line-height: $menu-item-line-height;
+            @extend .header-menu-font;
             color: $alt-text-color;
             padding: 18px;
         }

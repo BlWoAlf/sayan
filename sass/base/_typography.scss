@@ -52,11 +52,20 @@ body{
     margin-bottom: 16px;
 }
 
+.logo-font{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.header-menu-font{
+    font-size: $standart-text-size;
+    line-height: 36px;
+}
+
 .button{
     a{
         font-size: 12px;
         line-height: 12px;
-        // letter-spacing: 1.5px; //шрифт не подходит
         &:before{
             font-size: 24px;
             line-height: 28px;
