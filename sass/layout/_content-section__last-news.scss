@@ -1,3 +1,5 @@
 .content-section__last-news{
-    padding-bottom: 48px;
+    .news{
+        @extend %margin-bottom-16px;
+    }
 }

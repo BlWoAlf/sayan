@@ -1,0 +1,24 @@
+.info-mark{
+    @extend %flex-center-column;
+    width: 108px;
+    height: 60px;
+    background-color: $primary-color;
+    color: $alt-text-color;
+    padding: 8px 2px;
+    .eye-i{
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+.info-mark__item{
+    margin-bottom: 2px;
+    &:last-child{
+        margin-bottom: 0px;
+    }
+}
+
+.info-mark__views{
+    &:before{
+        margin-right: 5px;
+    }
+}

@@ -72,3 +72,23 @@ body{
         }
     }
 }
+
+.advertisement, .news__description, .publication__text{
+    .text{
+        line-height: $news-text-line-height;
+    }
+}
+
+.info-mark__date, .info-mark__views{
+    font-size: 10px;
+}
+.info-mark__date{
+    line-height: 10px;
+}
+.info-mark__time{
+    font-size: 18px;
+    line-height: 18px;
+}
+.info-mark__views{
+    line-height: 11px;
+}

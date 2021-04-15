@@ -29,7 +29,10 @@
             </div>
         </div>
     </header>
-    <?php include '../main.html'; ?>
+    <?php 
+    // include '../main.html';
+    include '../publication.html';
+    ?>
     <footer class="footer">
         <div class="container">
             <div class="row">

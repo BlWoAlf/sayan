@@ -1,0 +1,12 @@
+$frame-border-color: $grey-color3; //from utils/variables
+
+.picture-frame-block{
+    padding: 16px;
+    border: 1px solid $frame-border-color;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 15px $shadow-color;
+    img{
+        @extend %img-fill;
+        object-fit: cover;
+    }
+}

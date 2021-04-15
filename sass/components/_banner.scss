@@ -1,0 +1,8 @@
+.banner{
+    width: 100%;
+    height: 346px;
+    img{
+        @extend %img-fill;
+        object-fit: cover;
+    }
+}

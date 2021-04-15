@@ -1,0 +1,11 @@
+.publications{
+    .container{
+        max-width: 960px;
+    }
+}
+
+.publications{
+    .news{
+        @extend %margin-bottom-16px;
+    }
+}

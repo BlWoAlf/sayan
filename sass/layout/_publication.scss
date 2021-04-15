@@ -1,0 +1,33 @@
+.content-section.publication{
+    padding-top: 23px;
+}
+
+.publication__info{
+    .info-mark{
+        width: 100%;
+    }
+}
+
+.publication__content{
+    max-width: 630px;
+}
+
+.publication__block{
+    padding: 24px 0px;
+    &:first-child{
+        padding-top: 0px;
+    }
+    &:last-child{
+        padding-bottom: 0px;
+    }
+}
+
+.publication__banner{
+    width: 100%;
+    height: 353px;
+}
+
+.publication__video{
+    width: 100%;
+    height: 355px;
+}

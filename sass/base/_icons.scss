@@ -57,7 +57,7 @@
 .eye-i{
     &:before {
         @extend %fa-icon;
-        @extend .fas;
+        @extend .far;
         content: fa-content($fa-var-eye);
     }
 }
