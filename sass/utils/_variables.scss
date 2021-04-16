@@ -1,5 +1,6 @@
 $primary-color: #EE0E0E;
 $header-color: #ED1C24;
+$white-color: #FFFFFF;
 $grey-color: #EAEAEA;
 $grey-color2: #F6F6F6;
 $grey-color3: #CCCCCC;
@@ -7,4 +8,4 @@ $grey-color3: #CCCCCC;
 $shadow-color: rgba(0, 0, 0, 0.25);
 
 $standart-text-color: #000000;
-$alt-text-color: #FFFFFF;
+$alt-text-color: $white-color

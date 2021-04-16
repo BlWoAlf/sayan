@@ -31,14 +31,15 @@
     </header>
     <?php 
     // include '../main.html';
-    include '../publication.html';
+    // include '../publication.html';
     // include '../program.html';
     // include '../program-alt.html';
+    include 'view/'.$_GET['view'].'.html';
     ?>
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col col-xl-3">
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="information-block footer__contacts">
                         <h3 class="information-block__header h3-header">Контакты</h3>
                         <div class="information-block__content">
@@ -50,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-xl-3">
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="information-block footer__about-company">
                         <h3 class="information-block__header h3-header">Информация о компании</h3>
                         <div class="information-block__content">
@@ -64,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-xl-3">
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="information-block footer__copyrighting">
                         <div class="information-block__content">
                             <p class="text information-block__other-iformation">
@@ -73,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-xl-3">
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="information-block footer__follow">
                         <h3 class="information-block__header h3-header">Следите за новостями</h3>
                         <div class="information-block__content">

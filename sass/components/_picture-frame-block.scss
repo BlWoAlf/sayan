@@ -5,6 +5,7 @@ $frame-border-color: $grey-color3; //from utils/variables
     border: 1px solid $frame-border-color;
     box-sizing: border-box;
     box-shadow: 0px 2px 15px $shadow-color;
+    background-color: $white-color;
     img{
         @extend %img-fill;
         object-fit: cover;

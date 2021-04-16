@@ -6,4 +6,5 @@
     .header__wrap{
         @extend %flex-horizontal;
     }
+    overflow: hidden; //временно
 }
