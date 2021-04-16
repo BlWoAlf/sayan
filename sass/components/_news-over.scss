@@ -1,0 +1,29 @@
+.news-over{
+    padding-bottom: 32px;
+    &:last-child{
+        padding-bottom: 7px;
+    }
+    .info-mark{
+        width: 190px;
+    }
+    a{
+        @extend %clean-link;
+        color: $standart-text-color;
+    }
+}
+
+.news-ower__block{
+    padding-top: 16px;
+    &:first-child{
+        padding-top: 0px;
+    }
+    .news-ower__info{
+        padding-bottom: 16px;
+    }
+}
+
+.news-ower__image{
+    width: 100%;
+    max-width: 630px;
+    height: 353px;
+}

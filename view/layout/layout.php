@@ -32,6 +32,8 @@
     <?php 
     // include '../main.html';
     include '../publication.html';
+    // include '../program.html';
+    // include '../program-alt.html';
     ?>
     <footer class="footer">
         <div class="container">

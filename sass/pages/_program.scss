@@ -1,0 +1,6 @@
+.pp__section{
+    margin-bottom: 52px;
+    .content-section__last-news{
+        @extend %margin-bottom-16px;
+    }
+}
